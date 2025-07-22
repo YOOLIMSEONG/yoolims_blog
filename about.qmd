@@ -1,0 +1,12 @@
+---
+title: "Seong Yoolim"
+image: https://th.bing.com/th/id/OIP.yhPqjgwugydKS5h03TF66AHaEJ?w=315&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/YOOLIMSEONG
+---
+
+성유림의 블로그입니다.

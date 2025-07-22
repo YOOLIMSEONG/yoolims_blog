@@ -1,0 +1,9 @@
+---
+title: "Welcome To My Blog 2"
+author: "Seong Yoolim"
+date: "2025-07-22"
+categories: [news]
+image: 'thumbnail.jpg'
+---
+
+안녕하세요!

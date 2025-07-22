@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "yoolims blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/YOOLIMSEONG
+format:
+  html:
+    theme:
+      - flatly
+    css: styles.css

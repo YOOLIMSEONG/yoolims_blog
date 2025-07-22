@@ -1,0 +1,9 @@
+---
+title: "Post With Code"
+author: "Harlow Malloc"
+date: "2025-07-22"
+categories: [news, code, analysis]
+image: "https://tse1.mm.bing.net/th/id/OIP.vbL1ZpfeZaueqcKPJVeUtwHaDt?rs=1&pid=ImgDetMain&o=7&rm=3"
+---
+
+This is a post with executable code.
