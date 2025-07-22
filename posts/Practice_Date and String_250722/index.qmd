@@ -1,3 +1,10 @@
+---
+title: "Practice_Date and String_250722"
+author: "Seong Yoolim"
+date: "2025-07-22"
+categories: [code, study]
+---
+
 # 날짜형, 문자형 다루기 연습 - 자전거 시스템의 대여 기록
 
 ```{python}
