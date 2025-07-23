@@ -1,5 +1,5 @@
 ---
-title: "Practice_Date and String_250722"
+title: "Practice_Date_and_String_250722"
 author: "Seong Yoolim"
 date: "2025-07-22"
 categories: [code, study]
@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 # 날짜형, 문자형 다루기 연습 - 자전거 시스템의 대여 기록
-df = pd.read_csv('./data/bike_data.csv')
+df = pd.read_csv('bike_data.csv')
 df.head()
 df.info()
 # 데이터 속성 변환
@@ -170,7 +170,7 @@ import pandas as pd
 
 # 앱 로그 데이터
 pd.set_option('display.max_columns', None) # 전체 칼럼 정보 프린트 옵션
-df = pd.read_csv('./data/logdata.csv')
+df = pd.read_csv('logdata.csv')
 df
 
 ```
