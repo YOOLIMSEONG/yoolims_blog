@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "485385f5",
+   "id": "aae578eb",
    "metadata": {},
    "source": [
     "---\n",
@@ -18,7 +18,7 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "f9581031",
+   "id": "5cbad4ec",
    "metadata": {},
    "outputs": [
     {
@@ -84,7 +84,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1e958c40",
+   "id": "19ae5815",
    "metadata": {},
    "source": [
     "1.  계절(season) == 1일 때, 가장 대여량이 많은 시간대(hour)을 구하시오."
@@ -93,7 +93,7 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "e63ed010",
+   "id": "aa16bd8d",
    "metadata": {},
    "outputs": [
     {
@@ -107,7 +107,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "C:\\Users\\USER\\AppData\\Local\\Temp\\ipykernel_22068\\1410268735.py:5: SettingWithCopyWarning: \n",
+      "C:\\Users\\USER\\AppData\\Local\\Temp\\ipykernel_23336\\1410268735.py:5: SettingWithCopyWarning: \n",
       "A value is trying to be set on a copy of a slice from a DataFrame.\n",
       "Try using .loc[row_indexer,col_indexer] = value instead\n",
       "\n",
@@ -137,7 +137,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cef57b62",
+   "id": "d58e6939",
    "metadata": {},
    "source": [
     "2.  각 계절(season)별 평균 대여량(count)을 구하시오."
@@ -146,7 +146,7 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "3c298465",
+   "id": "e59b69b9",
    "metadata": {},
    "outputs": [
     {
@@ -174,7 +174,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b78c1cac",
+   "id": "702a820c",
    "metadata": {},
    "source": [
     "3.  특정 달(month) 동안의 총 대여량(count)을 구하시오."
@@ -183,7 +183,7 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "56cd51a2",
+   "id": "6c827b7e",
    "metadata": {},
    "outputs": [
     {
@@ -220,7 +220,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "90271e32",
+   "id": "6842098e",
    "metadata": {},
    "source": [
     "4.  가장 대여량이 많은 날짜를 구하시오."
@@ -229,7 +229,7 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "f7272685",
+   "id": "0c2ddf64",
    "metadata": {},
    "outputs": [
     {
@@ -255,7 +255,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c4eff0aa",
+   "id": "ed13b92b",
    "metadata": {},
    "source": [
     "5.  시간대(hour)별 평균 대여량(count)을 구하시오."
@@ -264,7 +264,7 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "481ecd65",
+   "id": "dbeafc81",
    "metadata": {},
    "outputs": [
     {
@@ -319,7 +319,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "106a9052",
+   "id": "c4b45b9f",
    "metadata": {},
    "source": [
     "6.  특정 요일(weekday) 동안의 총 대여량(count)을 구하시오."
@@ -328,7 +328,7 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "3b041622",
+   "id": "5d36f5da",
    "metadata": {},
    "outputs": [
     {
@@ -365,7 +365,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0be410f5",
+   "id": "5b6a8eb8",
    "metadata": {},
    "source": [
     "7.   주어진 Bike Sharing 데이터를 사용하여 넓은 형식(wide format)에서 긴 형식(long format)으로 변환하시오. casual과 registered 열을 하나의 열로 변환하고, 각 기록의 대여 유형과 대여 수를 포함하는 긴 형식 데이터프레임을 만드시오."
@@ -374,7 +374,7 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "96d1a0cb",
+   "id": "dd87e505",
    "metadata": {},
    "outputs": [
     {
@@ -523,7 +523,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e0d97fe6",
+   "id": "284c8c15",
    "metadata": {},
    "source": [
     "8.  이전에 생성한 긴 형식 데이터프레임을 활용하여 각 계절(season)별로 casual과 registered 사용자의 평균 대여 수(count)를 구하시오."
@@ -532,7 +532,7 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "0776686e",
+   "id": "5aa71488",
    "metadata": {},
    "outputs": [
     {
@@ -655,7 +655,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6611162c",
+   "id": "db12aa55",
    "metadata": {},
    "source": [
     "# 앱 로그 데이터"
@@ -664,7 +664,7 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "126f2869",
+   "id": "6e347608",
    "metadata": {},
    "outputs": [
     {
@@ -868,7 +868,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9bf0e348",
+   "id": "12ceff45",
    "metadata": {},
    "source": [
     "9.  로그 칼럼에서 숫자 정보만 추출하시오."
@@ -877,7 +877,7 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "f947b342",
+   "id": "a5e0fc7e",
    "metadata": {},
    "outputs": [
     {
@@ -1271,7 +1271,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f0e3ee28",
+   "id": "95248923",
    "metadata": {},
    "source": [
     "10. 로그 칼럼에서 모든 시간 정보를 추출하시오."
@@ -1280,7 +1280,7 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "eb2d0719",
+   "id": "0c7f6a58",
    "metadata": {},
    "outputs": [
     {
@@ -1480,7 +1480,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0e8ac9e6",
+   "id": "98745e66",
    "metadata": {},
    "source": [
     "11. 로그 칼럼에서 한글 정보만 추출하시오."
@@ -1489,7 +1489,7 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "61030517",
+   "id": "b10c0462",
    "metadata": {},
    "outputs": [
     {
@@ -1689,7 +1689,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1ebe12b3",
+   "id": "c59336c8",
    "metadata": {},
    "source": [
     "12. 로그 칼럼에서 특수 문자를 제거하시오."
@@ -1698,7 +1698,7 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "937fb466",
+   "id": "beddcf1d",
    "metadata": {},
    "outputs": [
     {
@@ -1752,7 +1752,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a0cb0760",
+   "id": "e7952f84",
    "metadata": {},
    "source": [
     "13. 로그 칼럼에서 유저, Amount 값을 추출한 후 각 유저별 Amount의 평균값을 계산하시오."
@@ -1761,7 +1761,7 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "cdc65391",
+   "id": "edb76590",
    "metadata": {},
    "outputs": [
     {
